@@ -1,0 +1,7 @@
+C:\Users\WengKinPC\Desktop\swe40006\SWE40006App\publish\SWE40006App.exe
+C:\Users\WengKinPC\Desktop\swe40006\SWE40006App\publish\appsettings.Development.json
+C:\Users\WengKinPC\Desktop\swe40006\SWE40006App\publish\appsettings.json
+C:\Users\WengKinPC\Desktop\swe40006\SWE40006App\publish\SWE40006App.dll
+C:\Users\WengKinPC\Desktop\swe40006\SWE40006App\publish\SWE40006App.deps.json
+C:\Users\WengKinPC\Desktop\swe40006\SWE40006App\publish\SWE40006App.runtimeconfig.json
+C:\Users\WengKinPC\Desktop\swe40006\SWE40006App\publish\SWE40006App.pdb
