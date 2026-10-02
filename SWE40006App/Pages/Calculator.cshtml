@@ -6,6 +6,8 @@
 
 <h1>Calculator</h1>
 
+<!-- Sends the calculator values to OnPost() when the form is submitted. -->
+
 <form method="post" class="d-flex gap-2 align-items-center">
     <input type="number" step="any" asp-for="A" class="form-control w-auto" required />
     <select asp-for="Op" class="form-select w-auto">
@@ -14,9 +16,13 @@
         <option value="*">×</option>
         <option value="/">÷</option>
     </select>
+
+<!-- Gets the second number and connects it to the B property. -->
     <input type="number" step="any" asp-for="B" class="form-control w-auto" required />
     <button type="submit" class="btn btn-primary">Calculate</button>
 </form>
+
+<!-- Displays the result after the calculator form is submitted. -->
 
 @if (Model.Result != null)
 {
