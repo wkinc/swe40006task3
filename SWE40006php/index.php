@@ -31,7 +31,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     <p>Today: <?= date('d M Y, H:i') ?></p>
 
     <form method="post">
-        <input type="number" step="any" name="a" required>
+        <input type="number" step="any" name="a" required> <!-- User enters two numbers and selects the calculation operation. -->
         <select name="op">
             <option value="+">+</option>
             <option value="-">-</option>
@@ -42,6 +42,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         <button type="submit">Calculate</button>
     </form>
 
+    <!-- Shows the result only after a calculation has been performed. -->
     <?php if ($result !== null): ?>
         <h3>Result: <?= htmlspecialchars((string)$result) ?></h3>
     <?php endif; ?>
