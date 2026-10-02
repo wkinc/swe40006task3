@@ -31,7 +31,8 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     <p>Today: <?= date('d M Y, H:i') ?></p>
 
     <form method="post">
-        <input type="number" step="any" name="a" required> <!-- User enters two numbers and selects the calculation operation. -->
+        <!-- User enters two numbers and selects the calculation operation. -->
+        <input type="number" step="any" name="a" required> 
         <select name="op">
             <option value="+">+</option>
             <option value="-">-</option>
